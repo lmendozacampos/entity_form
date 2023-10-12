@@ -101,7 +101,7 @@ function EntityForm() {
                   }
                  })} />
                 <small id="emailHelp" className="form-text text-muted">
-                {errors.email && <p className="errorMsg text-danger text-muted">{errors?.curp?.message}</p>}
+                {errors.curp && <p className="errorMsg text-danger text-muted">{errors?.curp?.message}</p>}
                 </small>
             </div> <br/>
           </>
@@ -123,7 +123,7 @@ function EntityForm() {
                   }
                  })} />
                 <small id="emailHelp" className="form-text text-muted">
-                {errors.email && <p className="errorMsg text-danger text-muted">{errors?.fiel?.message}</p>}
+                {errors.fiel && <p className="errorMsg text-danger text-muted">{errors?.fiel?.message}</p>}
                 </small>
             </div><br/>
           </>
