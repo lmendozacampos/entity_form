@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Repositorio de ejercicio para crear una entidad
+
+¡Hola Usuario!
+
+En este repositorio encontrarás un ejercicio de un formulario reactivo basándose en los campos que se solicitan en el
+formulario de entidades.
+Se hizo uso de:
+1. la libreria React Hook Form trabajando con el hook useForm
+2. la libreria React Select trabajando
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
