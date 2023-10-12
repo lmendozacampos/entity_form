@@ -71,10 +71,6 @@ function EntityForm() {
                 <label htmlFor="name">{(selectedOption.value === '1' || selectedOption.value === '4') ? 'Name' : 'Business Name' }</label>
                 <input className="form-control" defaultValue={ entity?.name ?? ''} {...register("name", { 
                   required: "Name is required.",
-                  pattern: {
-                      value: /^[A-Za-z]+$/i,
-                      message: "Alphabetical characters only."
-                  },
                   maxLength: {
                     value: 40,
                     message: 'Name cannot exceed 40 characters'
