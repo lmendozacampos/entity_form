@@ -8,6 +8,8 @@ Se hizo uso de:
 1. la libreria React Hook Form trabajando con el hook useForm
 2. la libreria React Select trabajando
 
+Puedes ver la demo en [Create Entity](https://lmendozacampos.github.io/entity_form).
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
